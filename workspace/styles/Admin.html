@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>CheapoMail Create User</title>
+    <link rel="stylesheet" type="text/css" href="create_user.css">
+    <script type="text/javascript" src="scripts/create_user.js"></script>
+  </head>
+
+  <body id="content">
+    <div class="body"></div>
+		<div class="gradient"></div>
+		<div class="header">
+			<div id="banner">CheapoMail</div>
+			<div>New User</div>
+      <div class="instructions">Complete the form to add a new user</div>
+		</div>
+		<div class="login">
+			<form action="create_user.php"  method="post">
+				<input type="text" placeholder="ID" id="ID" name="ID"><br><br>
+				<input type="text" placeholder="Firstname" id="firstname" name="firstname"><br><br>
+				<input type="text" placeholder="Lastname" id="lastname" name="lastname"><br><br>
+				<input type="text" placeholder="Username" id="username" name="username"><br><br>
+				<input type="password" placeholder="Password" id="password" name="password"><br>
+				<input type="password" placeholder="Confirm password" id="cpassword" name="cpassword"><br>
+				<input type="submit" id="submit" name="submit"  value="Submit">
+			</form>
+		</div>
+	</div>
+
+  </body>
+</html>

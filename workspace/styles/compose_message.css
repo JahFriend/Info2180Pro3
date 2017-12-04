@@ -1,0 +1,130 @@
+
+
+h1{
+	color: #5379fa !important;
+   position: absolute;
+   float: right;
+   text-align: center;
+   top: -200px;
+   left: 270px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: white;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+.body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(http://www.xsjjys.com/data/out/207/WHDQ-513443646.jpg);
+	background-size: cover;
+}
+
+.gradent{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.header{
+	position: absolute;
+	top:10%;
+	left:5%;
+	z-index: 2;
+}
+
+.header div{
+	position: relative;
+	clear: left;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.email{
+	position: absolute;
+	top:10%;
+	left:30%;
+	padding: 10px;
+	z-index: 2;
+}
+
+.email input[type=text]{
+	width: 700px;
+	height: 30px;
+	background: transparent;
+	border: 3px solid white;
+	border-radius: 5px;
+	color: darkblue;
+	font-family:Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight:bold;
+	padding: 5px;;
+}
+
+#message{
+	width: 700px;
+	height: 400px;
+
+}
+
+
+.email input[type=submit]{
+	width: 265px;
+	height: 35px;
+	margin-left: 30px;
+	margin-top: 10px;
+	color: white;
+	background-color: #000080;
+	border-radius: 6px;
+	border-width: thin;
+	border-color: #4169E1;
+	padding: 15px;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight:600;
+	cursor: pointer;
+}
+.email input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+.email input[type=submit]:active{
+	opacity: 0.7;
+}
+
+.email input[type=text]:focus{
+	outline:none;
+	border: 5px solid white;
+	background-color: grey;
+}
+
+.email input[type=submit]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: white;
+}
+
+::-moz-input-placeholder{
+   color: white;
+}
